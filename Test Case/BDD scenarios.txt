@@ -1,0 +1,55 @@
+BDD HOMEWORK
+
+Scenarios-1
+
+Given user is able to open HRMS application 
+When user enters username
+And user enters password
+And user clicks on login button
+Then user should navigate to homepage
+
+Acceptance criteria -- user should be able to open HRMS homepage 
+
+Scenarios-2
+
+Given user is able to open Canvas application 
+When user enters username
+And user enters password
+And user clicks on login button
+Then user should navigate to homepage
+
+Acceptance criteria -- user should be able to open Canvas homepage 
+
+
+Scenarios-3
+
+Given user is able to open Chase Bank application 
+When user enters username
+And user enters password
+And user clicks on login button
+When user click on statement button
+Then user should navigate to statement page
+
+Acceptance criteria -- user should be able to open Chase Bank statement 
+
+Scenarios-4
+
+Given user is able to open Netflix application 
+When user clicks on sign in button
+And user enters email
+And user enters password
+And user clicks on sign in button
+Then user should navigate to homepage
+
+Acceptance criteria -- user should be able to open Netflix homepage 
+
+Scenarios-5
+
+Given user is able to open aws.amazon.com on browser 
+When user clicks on sign in console button
+And user enters useremail
+And user enters password
+And user clicks on sign in button
+Then user should navigate to homepage
+
+Acceptance criteria -- user should be able to open AWS homepage 
