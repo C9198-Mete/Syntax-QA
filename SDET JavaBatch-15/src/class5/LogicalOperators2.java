@@ -7,7 +7,7 @@ public class LogicalOperators2 {
         double historyScore=91.5;
         double scienceScore=93.5;
 
-        if(mathScore>90 && historyScore>90 && scienceScore>90){
+        if((mathScore > 90) && (historyScore > 90) && (scienceScore > 90)){
             System.out.println("Brilliant student");
         }else {
             System.out.println("You have to work more");
