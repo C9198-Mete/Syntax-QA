@@ -3,7 +3,7 @@ package class6;
 public class LogicalNotDemo {
     public static void main(String[] args){
 
-        String password="asd";
+        String password="asd12";
         if (!password.equals("Pass1234")){
             System.out.println("Wrong password");
         }
