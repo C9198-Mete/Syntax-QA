@@ -15,7 +15,7 @@ public class WhileDemo {
             int userInput=scanner.nextInt();
             if (userInput>num){
                 System.out.println("your entered number is greater");
-            } else if (userInput<num) {
+            }else if (userInput<num) {
                 System.out.println("you entered smaller number");
             }else {
                 System.out.println("You won!!!!");
