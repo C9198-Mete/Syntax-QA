@@ -1,6 +1,6 @@
 package class9;
 
-public class ArraysDemo {
+public class ArraysDemo1 {
     public static void main(String[] args) {
         String name="Matt";
         String name2="Ash";
