@@ -17,5 +17,11 @@ public class ArraysDemo {
         //System.out.println(names[20]); You will get an error because there is no name on index 20
 
 
+        for (int i = 0; i < 5; i++) {
+            System.out.print(names[i]+" ");
+
+        }
+
+
     }
 }
