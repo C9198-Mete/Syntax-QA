@@ -9,6 +9,7 @@ public class ScannerAndArrays {
         System.out.println("Please enter 5 numbers");
         int [] nums=new int[5];
 
+
 //  Below code manually store numbers in array
 //        nums[0]=40;
 //        nums[1]=50;
