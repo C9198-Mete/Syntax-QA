@@ -14,8 +14,8 @@ public class Task3 {
         System.out.println("*********");
 
         for (String[] cnt:countries) {
-            for (int i = 0; i < cnt.length; i++) {
-                System.out.print(cnt[i]+" ");
+            for (String s : cnt) {
+                System.out.print(s + " ");
                 total++;
 
             }
