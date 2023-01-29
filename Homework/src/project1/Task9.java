@@ -3,7 +3,7 @@ package project1;
 public class Task9 {
     public static void main(String[] args) {
 
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = {8, 25, 90, 4, 5};
         int max = numbers[0];
         int min = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
