@@ -20,5 +20,8 @@ public class Task4 {
         for (String word : arr) {
             System.out.print(new StringBuilder(word).reverse()+" ");
         }
+
+
+
     }
 }

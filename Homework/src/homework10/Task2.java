@@ -5,6 +5,7 @@ public class Task2 {
         String str="jfdlksadljljaA9437598758435)(*&%$#@";
         System.out.println(str.replaceAll("[^A-za-z0-9]","").length());
         System.out.println(str.replaceAll("[^A-za-z0-9]",""));
+        System.out.println(str.indexOf("k"));
 
     }
 }

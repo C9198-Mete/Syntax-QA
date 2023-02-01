@@ -16,8 +16,8 @@ public class Array2 {
 
 
             for (String[] car : cars) {
-                for (int j = 0; j < car.length; j++) {
-                    System.out.print(car[j] + " ");
+                for (String s : car) {
+                    System.out.print(s + " ");
 
                 }
 
