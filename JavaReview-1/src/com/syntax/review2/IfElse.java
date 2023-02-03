@@ -1,17 +1,31 @@
 package com.syntax.review2;
 
 public class IfElse {
+
     public static void main(String[] args) {
 
-        boolean isItNight=false;
-        if (isItNight){
-            System.out.println("I will go to sleep");
-        }else {
-            System.out.println("It is early to sleep");
+        /*   if statement
+
+        if(boolean condition) {
+                code A;
+        } else {
+            code B
+        } */
+
+        int num= 12;
+
+        if(num>100){
+            System.out.println(num+" is greater than a 100");
+        } else {
+            System.out.println(num+" is less than a 100");
         }
 
-        int age = 25;
-        String result= (age>20) ? "You are old" : "You are young";
-        System.out.println(result);
+        String button="Enroll Today";
+
+        if(button.equals("Enroll Today")){
+            System.out.println("Test Case Pass");
+        } else {
+            System.out.println("Test Case Failed");
+        }
     }
 }

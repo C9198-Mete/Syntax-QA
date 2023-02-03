@@ -1,26 +1,29 @@
 package com.syntax.review2;
 
+
 import java.util.Scanner;
 
 public class ScannerExample {
+
     public static void main(String[] args) {
 
-        Scanner input=new Scanner(System.in);
-        System.out.println("What is your name");
-        String name=input.nextLine();
-        System.out.println("enter your mom and dad name");
-        String mom=input.nextLine();
+        int num=10;
+        num=11;
 
-        System.out.println("Please enter your age");
-        int age=input.nextInt();
+        //non prim  variable = scanner
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Please enter you age");
+        int age=keyboard.nextInt(); //to capture int val ues
+
         System.out.println("Are you tired");
-        boolean tired=input.nextBoolean();
+        boolean tired=keyboard.nextBoolean(); //to capture boolean values
 
-        System.out.println("Please enter your state/city");
-        String stCt=input.next();
+        System.out.println("What is your name");
+        String name=keyboard.next(); // to capture String until space
 
-
-        System.out.println(mom+ "I'm "+name+" and "+ age+" years old and I live in "+ stCt + " and am i tired "+ tired);
-
+        System.out.println(age);
+        System.out.println(tired);
+        System.out.println(name);
     }
 }
