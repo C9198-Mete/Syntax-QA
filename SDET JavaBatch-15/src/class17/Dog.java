@@ -15,6 +15,7 @@ public class Dog {
         age=dogAge;
         weight=dogWeight;
 
+
     }
 
     void printInfo(){
