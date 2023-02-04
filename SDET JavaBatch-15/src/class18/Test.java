@@ -10,8 +10,8 @@ public class Test {
         System.out.println("0 arg constructor"+"name is "+name+" age is "+age);
     }
     Test(int age,String name){
-        this.age=age;
-        this.name=name;
+//        this.age=age;
+//        this.name=name;
         System.out.println("1 arg constructor "+"name is "+name+" age is "+age);
     }
     public static void main(String[] args) {

@@ -1,0 +1,20 @@
+package class18;
+
+public class Furniture {
+    String type;
+    double price;
+    String color;
+
+    Furniture(String type,double price,String color){
+        this.type=type;
+        this.price=price;
+        this.color=color;
+    }
+
+//    void Furniture(){} This is a method with name of Furniture
+
+    void print(){
+        System.out.println(type+" price is "+price+" and color is "+color);
+    }
+
+}
