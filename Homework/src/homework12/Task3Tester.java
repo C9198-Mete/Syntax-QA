@@ -7,7 +7,7 @@ public class Task3Tester {
         //Task3 task31=new Task3();
         //Task3 task32=new Task3("Java");
         Task3 task33=new Task3(34);
-        Task3 t
+
 
     }
 }
