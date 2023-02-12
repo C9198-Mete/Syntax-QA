@@ -6,12 +6,12 @@ public class FinalKeyword {
     final double PI=3.14;
     final double LightSpeed=299792458;
 
-    void tryChangingGravity(){
+    final void tryChangingGravity(){
         // gravity=1.6; we get an error because this variable is marked final
     }
 }
-class Child extends FinalKeyword{
+/*class Child extends FinalKeyword{
     void tryChangingGravity(){
         // gravity=1.6; we get an error because this variable is marked final
     }
-}
+}*/
