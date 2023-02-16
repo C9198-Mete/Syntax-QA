@@ -2,6 +2,7 @@ package class23;
 
 public abstract class Animal {
 
+
     abstract void speak();
 
     void eat(){
