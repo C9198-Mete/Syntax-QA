@@ -3,7 +3,7 @@ package class23;
 public abstract class Animal {
 
 
-    abstract void speak();
+     abstract void speak();
 
     void eat(){
         System.out.println("Animals Eat 2 times a day");

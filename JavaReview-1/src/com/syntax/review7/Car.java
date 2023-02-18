@@ -2,7 +2,7 @@ package com.syntax.review7;
 
 public class Car {
 
-    String make,model;
+    protected String make,model;
 
     int year,horsePower;
 
@@ -25,8 +25,9 @@ public class Car {
     }
 
 
-    public void drive(String destination){
+    protected String drive(String destination){
         System.out.println(make+" drives to "+destination);
+        return destination;
     }
 
     void drive(int speed,String destination){
